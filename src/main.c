@@ -29,7 +29,7 @@ int main ( void )
 
 
         fptr = fopen ( fname, "w" );
-        fprintf ( fptr, "iterations, bubble sort, selection sort, insertion sort, count sort, merge sort, quick sort,\n" );
+        fprintf ( fptr, "iterations, bubble sort, selection sort, insertion sort, count sort, merge sort, quick sort\n" );
 
         for ( unsigned int n = 5000, i = 0; n <= 60000; n += 5000, i++ )
         {
